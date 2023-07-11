@@ -35,7 +35,7 @@ async function toggleLocales() {
     </a>
   </nav> -->
   <div class="bg-gray">
-    <div class="mr-10 flex justify-end gap-4">
+    <div class="mr-10 flex items-center justify-end gap-4">
       <div>l.samcik@gmail.com</div>
       <nav class="flex gap-2">
         <a href="https://github.com/Lukaszwebster">
