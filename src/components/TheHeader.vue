@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 const { t, locale } = useI18n()
 
 // async function toggleLocales() {
@@ -8,32 +8,11 @@ const { t, locale } = useI18n()
 //   await loadLanguageAsync(newLocale)
 //   locale.value = newLocale
 // }
-</script>
+</script> -->
 
 <template>
-  <div class="font-roboto mx-4 lg:mx-[80px]">
-    <div class="mt-12 flex items-center justify-between">
-      <div class="text-5">
-        Łukasz<span class="font-1000">Samcik</span>
-      </div>
-      <nav class="flex gap-2 lg:gap-4">
-        <a href="https://github.com/Lukaszwebster">
-          <img class="h-5 lg:h-8" src="/github.svg" alt="">
-
-        </a>
-
-        <a href="https://www.linkedin.com/in/%C5%82ukasz-samcik-272222271/">
-          <img class="h-5 lg:h-8" src="/linkedin.svg" alt="">
-        </a>
-        <a href="https://codepen.io/Websterek">
-          <img class="h-5 lg:h-8" src="/codepen.svg" alt="">
-        </a>
-
-        <button :title="t('button.toggle_dark')" @click="toggleDark()">
-          <div i="carbon-sun dark:carbon-moon" />
-        </button>
-      </nav>
-    </div>
+  <div class="mx-4 font-roboto lg:mx-[80px]">
+    <TheTopBar />
     <div class="mt-10">
       <div class="sm:flex sm:justify-between">
         <picture class="max-w-300px lg:max-w-400px xl:max-w-500px">

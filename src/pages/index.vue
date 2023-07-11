@@ -15,7 +15,9 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <div />
+  <div>
+    <TheSkills />
+  </div>
 </template>
 
 <route lang="yaml">

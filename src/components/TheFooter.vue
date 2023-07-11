@@ -34,21 +34,21 @@ async function toggleLocales() {
       <div i-carbon-logo-github />
     </a>
   </nav> -->
-  <div class="bg-myBlue mt-10 h-[200px] pt-10">
+  <div class="mt-10 h-[200px] bg-myBlue pt-10">
     <div class="flex items-center justify-center gap-4">
-      <div class="">
+      <div>
         l.samcik@gmail.com
       </div>
       <nav class="flex gap-2">
         <a href="https://github.com/Lukaszwebster">
-          <img class="h-5 w-5" src="/github.svg" alt="">
+          <div class="i-mdi:github md:h-10 md:w-10" />
         </a>
 
         <a href="https://www.linkedin.com/in/%C5%82ukasz-samcik-272222271/">
-          <img class="h-5 w-5" src="/linkedin.svg" alt="">
+          <div class="i-mdi:linkedin text-black md:h-10 md:w-10 dark:text-white hover:text-green" />
         </a>
         <a href="https://codepen.io/Websterek">
-          <img class="h-5 lg:h-8" src="/codepen.svg" alt="">
+          <div class="i-mdi:codepen md:h-10 md:w-10" />
         </a>
       </nav>
     </div>
