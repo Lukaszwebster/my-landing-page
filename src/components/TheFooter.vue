@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import { availableLocales, loadLanguageAsync } from '~/modules/i18n'
 
 const { t, locale } = useI18n()
@@ -34,9 +34,11 @@ async function toggleLocales() {
       <div i-carbon-logo-github />
     </a>
   </nav> -->
-  <div class="bg-gray">
-    <div class="mr-10 flex items-center justify-end gap-4">
-      <div>l.samcik@gmail.com</div>
+  <div class="bg-myBlue mt-10 h-[200px] pt-10">
+    <div class="flex items-center justify-center gap-4">
+      <div class="">
+        l.samcik@gmail.com
+      </div>
       <nav class="flex gap-2">
         <a href="https://github.com/Lukaszwebster">
           <img class="h-5 w-5" src="/github.svg" alt="">
@@ -44,6 +46,9 @@ async function toggleLocales() {
 
         <a href="https://www.linkedin.com/in/%C5%82ukasz-samcik-272222271/">
           <img class="h-5 w-5" src="/linkedin.svg" alt="">
+        </a>
+        <a href="https://codepen.io/Websterek">
+          <img class="h-5 lg:h-8" src="/codepen.svg" alt="">
         </a>
       </nav>
     </div>
