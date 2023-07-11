@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-4 mt-10 font-roboto lg:mx-[80px]">
+  <div class="mx-4 mt-20 font-roboto lg:mx-[80px]">
     <h2 class="text-[1.5rem]">
       Technologie z których korzystam
     </h2>
