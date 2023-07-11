@@ -13,7 +13,7 @@ async function toggleLocales() {
 </script>
 
 <template>
-  <nav flex="~ gap-4" mt-6 justify-center text-xl>
+  <!-- <nav flex="~ gap-4" mt-6 justify-center text-xl>
     <RouterLink icon-btn to="/" :title="t('button.home')">
       <div i-carbon-campsite />
     </RouterLink>
@@ -33,5 +33,19 @@ async function toggleLocales() {
     <a icon-btn rel="noreferrer" href="https://github.com/antfu/vitesse" target="_blank" title="GitHub">
       <div i-carbon-logo-github />
     </a>
-  </nav>
+  </nav> -->
+  <div class="bg-gray">
+    <div class="mr-10 flex justify-end gap-4">
+      <div>l.samcik@gmail.com</div>
+      <nav class="flex gap-2">
+        <a href="https://github.com/Lukaszwebster">
+          <img class="h-5 w-5" src="/github.svg" alt="">
+        </a>
+
+        <a href="https://www.linkedin.com/in/%C5%82ukasz-samcik-272222271/">
+          <img class="h-5 w-5" src="/linkedin.svg" alt="">
+        </a>
+      </nav>
+    </div>
+  </div>
 </template>
