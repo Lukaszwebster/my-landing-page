@@ -39,16 +39,16 @@ async function toggleLocales() {
       <div>
         l.samcik@gmail.com
       </div>
-      <nav class="flex gap-2">
+      <nav class="flex gap-2 text-gray">
         <a href="https://github.com/Lukaszwebster">
-          <div class="i-mdi:github md:h-10 md:w-10" />
+          <div class="i-mdi:github md:h-10 md:w-10 hover:text-black dark:hover:text-white" />
         </a>
 
         <a href="https://www.linkedin.com/in/%C5%82ukasz-samcik-272222271/">
-          <div class="i-mdi:linkedin text-black md:h-10 md:w-10 dark:text-white hover:text-green" />
+          <div class="i-mdi:linkedin md:h-10 md:w-10 dark:text-gray hover:text-black dark:hover:text-white" />
         </a>
         <a href="https://codepen.io/Websterek">
-          <div class="i-mdi:codepen md:h-10 md:w-10" />
+          <div class="i-mdi:codepen md:h-10 md:w-10 hover:text-black dark:hover:text-white" />
         </a>
       </nav>
     </div>
