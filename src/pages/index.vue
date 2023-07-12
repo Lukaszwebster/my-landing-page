@@ -16,7 +16,7 @@ const { t } = useI18n()
 
 <template>
   <div>
-    <TheSkills />
+    <TheSkills data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" />
   </div>
 </template>
 
