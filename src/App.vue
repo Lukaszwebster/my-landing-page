@@ -1,11 +1,8 @@
-<script setup lang="ts">
+<script setup>
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 AOS.init()
-// https://github.com/vueuse/head
-// you can use this to manipulate the document head in any components,
-// they will be rendered correctly in the html results with vite-ssg
 useHead({
   title: 'Landing page',
   meta: [

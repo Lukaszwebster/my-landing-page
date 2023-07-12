@@ -1,19 +1,7 @@
-<!-- <script setup>
-const { t, locale } = useI18n()
-
-// async function toggleLocales() {
-//   // change to some real logic
-//   const locales = availableLocales
-//   const newLocale = locales[(locales.indexOf(locale.value) + 1) % locales.length]
-//   await loadLanguageAsync(newLocale)
-//   locale.value = newLocale
-// }
-</script> -->
-
 <template>
   <div class="mx-4 font-roboto lg:mx-[80px]">
     <TheTopBar />
-    <div data-aos="fade" data-aos-offset="200" data-aos-duration="1000" class="mt-20">
+    <div data-aos="fade" data-aos-offset="200" data-aos-duration="800" data-aos-mirror="true" class="mt-20">
       <div class="sm:flex sm:justify-between">
         <picture class="max-w-300px lg:max-w-400px xl:max-w-500px">
           <img class="rounded-4px" src="/zdjecie-ja-2.jpeg" alt="">

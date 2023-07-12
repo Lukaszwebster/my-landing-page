@@ -14,15 +14,15 @@ const skills = [
   },
   {
     id: 4,
-    name: 'Tailwind',
+    name: 'Tailwind CSS',
   },
   {
     id: 5,
-    name: 'Windy',
+    name: 'Windi CSS',
   },
   {
     id: 6,
-    name: 'UnoCss',
+    name: 'Uno CSS',
   },
   {
     id: 7,
@@ -30,55 +30,15 @@ const skills = [
   },
   {
     id: 8,
-    name: 'GIT',
+    name: 'Vite',
   },
   {
     id: 9,
-    name: 'HTML',
+    name: 'RWD',
   },
   {
     id: 10,
-    name: 'CSS',
-  },
-  {
-    id: 11,
-    name: 'JavaScript',
-  },
-  {
-    id: 12,
-    name: 'Tailwind',
-  },
-  {
-    id: 13,
-    name: 'Windy',
-  },
-  {
-    id: 14,
-    name: 'UnoCss',
-  },
-  {
-    id: 15,
-    name: 'Vue',
-  },
-  {
-    id: 16,
-    name: 'HTML',
-  },
-  {
-    id: 17,
-    name: 'CSS',
-  },
-  {
-    id: 18,
-    name: 'JavaScript',
-  },
-  {
-    id: 19,
-    name: 'Tailwind',
-  },
-  {
-    id: 20,
-    name: 'Windy',
+    name: 'GIT',
   },
 
 ]
@@ -90,7 +50,7 @@ const skills = [
       Technologie z których korzystam
     </h2>
     <div class="justify-between md:flex">
-      <h2 class="mt-4 leading-loose text-gray md:max-w-300px">
+      <h2 class="mt-4 leading-loose text-gray lg:max-w-500px md:max-w-300px">
         Od kiedy uczę się frontendu, staram się poznawać jak najwięcej nowych technologii. Zdaję sobie sprawę z tego, że tylko ciągłą nauką można nadążyć za rozwijającą się branża IT.
         Jednocześnie wiem, że pracując już na stanowisku frontend developera będę musiał cały czas poszerzać swoją wiedzę i rozwijać się w kolejnych gałęziach technologicznych.
       </h2>
