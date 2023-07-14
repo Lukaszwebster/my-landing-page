@@ -39,5 +39,6 @@
         Coming soon
       </h2>
     </div>
+    <github-feed login="Lukaszwebster" />
   </div>
 </template>

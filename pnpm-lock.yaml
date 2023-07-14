@@ -16,6 +16,9 @@ dependencies:
   aos:
     specifier: ^2.3.4
     version: 2.3.4
+  github-calendar:
+    specifier: ^2.3.2
+    version: 2.3.2
   nprogress:
     specifier: ^0.2.0
     version: 0.2.0
@@ -3737,6 +3740,10 @@ packages:
     hasBin: true
     dev: true
 
+  /add-subtract-date@1.0.15:
+    resolution: {integrity: sha512-MiL4wnMyM999meyCrSA3LME9uZ/b5ptSd0ACDVUoTfutFwvkMyIN7nG7gjrU56WEk5RlFLBghabcgdYwY8s+nQ==}
+    dev: false
+
   /agent-base@6.0.2:
     resolution: {integrity: sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==}
     engines: {node: '>= 6.0.0'}
@@ -4833,6 +4840,11 @@ packages:
     resolution: {integrity: sha512-+Yw9U6YO5TQohxLcIkrXBeY73WP3ejHWVvx8XCk3gxvQDCTEmS48ZrSZCKciI7Bhl/uCMyxYtE9UqRILmFphkQ==}
     dev: true
 
+  /days@1.1.1:
+    resolution: {integrity: sha512-vzeIwVsEIyA35GH4+mPd4hjVDNI87wYANyZFs0BHjBr5kIBH5zEl7LfD6Wr4SFZca4D3CU9IH1w4DuZLlXzKRw==}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
   /de-indent@1.0.2:
     resolution: {integrity: sha512-e/1zu3xH5MQryN2zdVaF0OrdNLUbvWxzMbi+iNA6Bky7l1RoP8a2fIbRocyHclXt/arDrrR6lL3TqFD9pMQTsg==}
     dev: true
@@ -5099,6 +5111,13 @@ packages:
   /electron-to-chromium@1.4.404:
     resolution: {integrity: sha512-te57sWvQdpxmyd1GiswaodKdXdPgn9cN4ht8JlNa04QgtrfnUdWEo1261rY2vaC6TKaiHn0E7QerJWPKFCvMVw==}
     dev: true
+
+  /elly@1.1.11:
+    resolution: {integrity: sha512-WFKVcEKEOjdSOhNYFKWQoJDk0Sb0re6v0fIsGkePn97dmPpKM/YoOKRdYIb34T1R13KPRNzDBDmT/Flb/54NXg==}
+    dependencies:
+      iterate-object: 1.3.4
+      sliced: 1.0.1
+    dev: false
 
   /emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -5948,6 +5967,10 @@ packages:
       to-regex-range: 5.0.1
     dev: true
 
+  /fillo@1.0.13:
+    resolution: {integrity: sha512-9LYJ0ww96DUYETd2Bia5NS1b8rj42nEE5zsfcUwDErMopTs6BRBe4dRIVjrZGXSiK4vNSL/Q3u0dyqbmkA2Zdg==}
+    dev: false
+
   /finalhandler@1.2.0:
     resolution: {integrity: sha512-5uXcUVftlQMFnWC9qu/svkWv3GTd2PfUhK/3PLkYNAe7FbqJMt3515HaxE6eRL74GdsriiwujiawdaB1BpEISg==}
     engines: {node: '>= 0.8'}
@@ -6036,6 +6059,15 @@ packages:
       combined-stream: 1.0.8
       mime-types: 2.1.35
     dev: true
+
+  /formatoid@1.2.4:
+    resolution: {integrity: sha512-9wWHOPJvbIheSpiHGl0xaBwdszlzPaeh2KqHVexGQnKpO85xrMoKvuf6M3q0B4uC3I9lkXjH6+8ipQC8PQ/7Gw==}
+    dependencies:
+      days: 1.1.1
+      fillo: 1.0.13
+      months: 1.2.0
+      parse-it: 1.0.10
+    dev: false
 
   /forwarded@0.2.0:
     resolution: {integrity: sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==}
@@ -6188,6 +6220,25 @@ packages:
     dependencies:
       assert-plus: 1.0.0
     dev: true
+
+  /github-calendar-legend@1.0.11:
+    resolution: {integrity: sha512-V7AkszKw2fMeU+g6W5dQ7vDGzJ3giSaukdOUEdUqhcHhQDVYcQf7c0Q3korbQzJsh+Wh3MqyPtN+ZSAuEnHP2A==}
+    dev: false
+
+  /github-calendar-parser@1.2.2:
+    resolution: {integrity: sha512-lA47NHVu5lTH0kZf71W+NXhqr3hvsHLwMRqUxTNsopLDQNCQTAgyhzHwi5iJegq2cTTn4p1ZeqmHyt8RbbhPOw==}
+    dependencies:
+      github-calendar-legend: 1.0.11
+    dev: false
+
+  /github-calendar@2.3.2:
+    resolution: {integrity: sha512-PZWDI4kcOG2vFCOUzLhUL5xA1Vu4ZF5qJ653CWyr/Q/8yLiTEDjNenhG7djlHoza9u/unnPtrhnHDiNLY9kTlQ==}
+    dependencies:
+      add-subtract-date: 1.0.15
+      elly: 1.1.11
+      formatoid: 1.2.4
+      github-calendar-parser: 1.2.2
+    dev: false
 
   /glob-parent@5.1.2:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
@@ -6924,6 +6975,10 @@ packages:
   /isstream@0.1.2:
     resolution: {integrity: sha512-Yljz7ffyPbrLpLngrMtZ7NduUgVvi6wG9RJ9IUcyCd59YQ911PBJphODUcbOVbqYfxe1wuYf/LJ8PauMRwsM/g==}
     dev: true
+
+  /iterate-object@1.3.4:
+    resolution: {integrity: sha512-4dG1D1x/7g8PwHS9aK6QV5V94+ZvyP4+d19qDv43EzImmrndysIl4prmJ1hWWIGCqrZHyaHBm6BSEWHOLnpoNw==}
+    dev: false
 
   /jackspeak@2.2.1:
     resolution: {integrity: sha512-MXbxovZ/Pm42f6cDIDkl3xpwv1AGwObKwfmjs2nQePiy85tP3fatofl3FC1aBsOtP/6fq5SbtgHwWcMsLP+bDw==}
@@ -7733,6 +7788,11 @@ packages:
       ufo: 1.1.2
     dev: true
 
+  /months@1.2.0:
+    resolution: {integrity: sha512-zFM7hUpziSYGk2DNObYGWgHdRRxAOgjl8CC1Rbl50p/q0rGDsREfk0nbxxmSIquVi/lEAuUY8nwbwkZ8biNCOQ==}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
   /mrmime@1.0.1:
     resolution: {integrity: sha512-hzzEagAgDyoU1Q6yg5uI+AorQgdvMCur3FcKf7NhMKWsaYg+RnbTyHRa/9IlLF9rf455MOCtcqqrQQ83pPP7Uw==}
     engines: {node: '>=10'}
@@ -8203,6 +8263,12 @@ packages:
       is-decimal: 1.0.4
       is-hexadecimal: 1.0.4
     dev: true
+
+  /parse-it@1.0.10:
+    resolution: {integrity: sha512-VAG4EuoNd2TT2wSRUuKyLEkZR3MhdWc+3UPp5CDQzqSt/FiniG+yJ5RXyJYiuzVAMEKL4d97gx6O3LR5jEB3uQ==}
+    dependencies:
+      regex-escape: 3.4.10
+    dev: false
 
   /parse-json@5.2.0:
     resolution: {integrity: sha512-ayCKvm/phCGxOkYRSCM82iDwct8/EonSEgCSxWxD7ve6jHggsFl4fZVQBPRNgQoKiuV/odhFrGzQXZwbifC8Rg==}
@@ -8715,6 +8781,10 @@ packages:
       '@babel/runtime': 7.21.5
     dev: true
 
+  /regex-escape@3.4.10:
+    resolution: {integrity: sha512-qEqf7uzW+iYcKNLMDFnMkghhQBnGdivT6KqVQyKsyjSWnoFyooXVnxrw9dtv3AFLnD6VBGXxtZGAQNFGFTnCqA==}
+    dev: false
+
   /regexp-tree@0.1.27:
     resolution: {integrity: sha512-iETxpjK6YoRWJG5o6hXLwvjYAoW+FEZn9os0PD/b6AP6xQwsa/Y7lCVgIixBbUPMfhu+i2LtdeAqVTgGlQarfA==}
     hasBin: true
@@ -9154,6 +9224,10 @@ packages:
       ansi-styles: 6.2.1
       is-fullwidth-code-point: 4.0.0
     dev: true
+
+  /sliced@1.0.1:
+    resolution: {integrity: sha512-VZBmZP8WU3sMOZm1bdgTadsQbcscK0UM8oKxKVBs4XAhUo2Xxzm/OFMGBkPusxw9xL3Uy8LrzEqGqJhclsr0yA==}
+    dev: false
 
   /smart-buffer@4.2.0:
     resolution: {integrity: sha512-94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg==}

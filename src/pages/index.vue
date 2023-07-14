@@ -19,10 +19,6 @@ const { t } = useI18n()
     <TheSkills data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="800" />
 
     <TheProjects />
+    <AppGitHubCalendar />
   </div>
 </template>
-
-<route lang="yaml">
-meta:
-  layout: home
-</route>

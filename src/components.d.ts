@@ -7,6 +7,7 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    AppGitHubCalendar: typeof import('./components/AppGitHubCalendar.vue')['default']
     AppSkillsItems: typeof import('./components/AppSkillsItems.vue')['default']
     README: typeof import('./components/README.md')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
