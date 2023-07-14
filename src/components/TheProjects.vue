@@ -16,7 +16,7 @@
         Jeden z moich pierwszych projektów. Pomysł z Frontend Mentora. Jest to prosty landing page, którego zadaniem jest skracać linki. Wykorzystałem w nim tailwind CSS.
       </h2>
       <picture class="mt-10 md:max-w-800px">
-        <img class="rounded-8px" src="/shortly-url-screen.jpeg" alt="">
+        <img class="rounded-8px" src="/shortly.jpeg" alt="">
       </picture>
     </div>
     <div data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="800" class="mt-20 flex flex-col items-center justify-center md:mt-30">
@@ -29,6 +29,15 @@
       <picture class="mt-8 md:max-w-800px">
         <img class="rounded-10px" src="/clipboard.jpeg" alt="">
       </picture>
+    </div>
+
+    <div data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="800" class="mt-20 flex flex-col items-center justify-center md:mt-30">
+      <h2 class="text-[1.5rem]">
+        Weather app
+      </h2>
+      <h2 class="class= mt-4 leading-loose text-gray md:max-w-800px">
+        Coming soon
+      </h2>
     </div>
   </div>
 </template>
