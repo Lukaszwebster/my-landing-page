@@ -16,7 +16,7 @@
         Jeden z moich pierwszych projektów. Pomysł z Frontend Mentora. Jest to prosty landing page, którego zadaniem jest skracać linki. Wykorzystałem w nim tailwind CSS.
       </h2>
       <picture class="mt-10 md:max-w-800px">
-        <img class="rounded-8px" src="/shortly.jpeg" alt="">
+        <a href="https://lukaszwebster.github.io/Shortly-URL/">  <img class="rounded-8px" src="/shortly.jpeg" alt=""></a>
       </picture>
     </div>
     <div data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="800" class="mt-20 flex flex-col items-center justify-center md:mt-30">
@@ -27,7 +27,7 @@
         Kolejny projekt ze strony frontend Mentor, który robiłem w ramach nauki.
       </h2>
       <picture class="mt-8 md:max-w-800px">
-        <img class="rounded-10px" src="/clipboard.jpeg" alt="">
+        <a href="https://lukaszwebster.github.io/clipboard-landing-page-master/"> <img class="rounded-10px" src="/clipboard.jpeg" alt=""></a>
       </picture>
     </div>
 
