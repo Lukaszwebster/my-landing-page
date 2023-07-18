@@ -9,6 +9,13 @@ async function toggleLocales() {
   await loadLanguageAsync(newLocale)
   locale.value = newLocale
 }
+
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth',
+  })
+}
 </script>
 
 <template>
@@ -30,5 +37,8 @@ async function toggleLocales() {
         </a>
       </nav>
     </div>
+    <button class="fixed bottom-20px right-20px" @click="scrollToTop">
+      <div class="i-solar:round-alt-arrow-up-bold text-40px text-gray dark:text-white" />
+    </button>
   </div>
 </template>
