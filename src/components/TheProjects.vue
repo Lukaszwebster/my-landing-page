@@ -5,7 +5,7 @@
         Moje projekty
       </h2>
       <h2 class="mt-4 leading-loose text-gray lg:max-w-500px md:max-w-400px">
-        Oto kilka moich projektów, które wiele mnie nauczyły oraz ukierunkowały na dalszy rozwój.
+        Oto kilka moich projektów, które wiele mnie nauczyły oraz ukierunkowały na dalszy rozwój. Skupiam się w nich mocno na responsywności oraz przejrzystości kodu.
       </h2>
     </div>
     <div data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="800" class="mt-20 flex flex-col items-center justify-center md:mt-30">
