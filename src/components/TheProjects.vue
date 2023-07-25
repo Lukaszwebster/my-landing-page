@@ -9,7 +9,7 @@
       </h2>
     </div>
     <div data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="800" class="mt-20 flex flex-col items-center justify-center md:mt-30">
-      <h2 class="text-[1.5rem]">
+      <h2 class="text-center text-[1.5rem]">
         URL Shortening. Frontend Mentor.
       </h2>
       <h2 class="class= mt-4 leading-loose text-gray md:max-w-800px">
@@ -20,7 +20,7 @@
       </picture>
     </div>
     <div data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="800" class="mt-20 flex flex-col items-center justify-center md:mt-30">
-      <h2 class="text-[1.5rem]">
+      <h2 class="text-center text-[1.5rem]">
         Clipboard landing page. Frontend Mentor
       </h2>
       <h2 class="class= mt-4 leading-loose text-gray md:max-w-800px">
