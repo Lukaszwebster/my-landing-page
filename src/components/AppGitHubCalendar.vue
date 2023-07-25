@@ -9,7 +9,7 @@ onMounted(() => {
 
 <template>
   <div>
-    <h2 class="mx-4 mt-10 text-[1.5rem] lg:mx-[80px]">
+    <h2 class="mx-4 mt-10 text-[1.5rem] 2xl:mx-[300px] lg:mx-[80px]">
       GitHub activity
     </h2>
     <div class="mx-4 mt-4 lg:mx-[100px] xl:mx-[300px]">

@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-4 mt-20 items-center font-roboto lg:mx-[80px] md:mt-30">
+  <div class="mx-4 mt-20 items-center font-roboto 2xl:mx-[300px] lg:mx-[80px] md:mt-30">
     <div data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="800">
       <h2 class="text-[1.5rem]">
         Moje projekty
