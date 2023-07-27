@@ -19,7 +19,7 @@ function scrollToTop() {
 </script>
 
 <template>
-  <div class="mt-10 h-[300px] bg-myBlue pt-10 dark:bg-gray">
+  <div class="mt-10 h-[100px] bg-myBlue pt-10 dark:bg-gray">
     <div class="flex items-center justify-center gap-4">
       <div>
         l.samcik@gmail.com
