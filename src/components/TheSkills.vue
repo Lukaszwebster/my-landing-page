@@ -40,6 +40,10 @@ const skills = [
     id: 10,
     name: 'GIT',
   },
+  {
+    id: 11,
+    name: 'Nuxt',
+  },
 
 ]
 </script>
