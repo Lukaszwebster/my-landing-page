@@ -24,6 +24,9 @@ const props = defineProps({
       <h2 class="class= mt-4 text-center leading-loose text-gray md:max-w-800px md:text-left">
         {{ props.subtitle }}
       </h2>
+      <button class="bg-gray-200">
+        O projekcie
+      </button>
       <picture class="mt-10 md:max-w-800px">
         <a :href="imgUrl">  <img class="rounded-8px" :src="imgSrc" alt=""></a>
       </picture>
