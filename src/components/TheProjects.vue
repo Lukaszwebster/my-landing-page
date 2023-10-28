@@ -16,7 +16,7 @@
         Moj projekt strony dla gabinetu stomatologicznego
       </h2>
       <picture class="mt-10 md:max-w-800px">
-        <a href="https://lukaszwebster.github.io/Shortly-URL/">  <img class="rounded-8px" src="/MediDentImg.png" alt=""></a>
+        <a href="https://medidentpulawy.pl">  <img class="rounded-8px" src="/MediDentImg.png" alt=""></a>
       </picture>
     </div>
     <div data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="800" class="mt-20 flex flex-col items-center justify-center md:mt-30">
