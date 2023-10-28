@@ -1,10 +1,43 @@
 <script setup lang="ts">
-
+const projects = [
+  {
+    title: 'MediDent',
+    subtitle: 'Moj projekt strony dla gabinetu stomatologicznego',
+    imgSrc: '/MediDentImg.png',
+    imgUrl: 'https://medidentpulawy.pl',
+  },
+  {
+    title: 'URL Shortening. Frontend Mentor.',
+    subtitle: 'Jeden z moich pierwszych projektów. Pomysł z Frontend Mentora. Jest to prosty landing page, którego zadaniem jest skracać linki. Wykorzystałem w nim tailwind CSS.',
+    imgSrc: '/shortly.jpeg',
+    imgUrl: 'https://lukaszwebster.github.io/Shortly-URL/',
+  },
+  {
+    title: 'Clipboard landing page. Frontend Mentor',
+    subtitle: 'Kolejny projekt ze strony frontend Mentor, który robiłem w ramach nauki.',
+    imgSrc: '/clipboard.jpeg',
+    imgUrl: 'https://lukaszwebster.github.io/clipboard-landing-page-master/',
+  },
+  {
+    title: 'Weather app',
+    subtitle: ' Aplikacja pogodowa pokazująca aktualne dane pogodowe miast. W krótce będzie rozbudowywana.',
+    imgSrc: '/weatherApp.png',
+    imgUrl: '',
+  },
+]
 </script>
 
 <template>
   <div>
     <TheSkills data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="800" />
-    <TheProjects />
+    <div class="mx-4 mt-20 items-center font-roboto 2xl:mx-[300px] lg:mx-[80px] md:mt-30" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="800">
+      <h2 class="text-center text-[1.5rem] md:text-left">
+        Moje projekty
+      </h2>
+      <h2 class="mt-4 text-center leading-loose text-gray lg:max-w-500px md:max-w-400px md:text-left">
+        Oto kilka moich projektów, które wiele mnie nauczyły oraz ukierunkowały na dalszy rozwój. Skupiam się w nich mocno na responsywności oraz przejrzystości kodu.
+      </h2>
+    </div>
+    <AppProject v-for="(item, index) in projects" :key="index" v-bind="item" />
   </div>
 </template>
