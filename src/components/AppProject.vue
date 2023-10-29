@@ -17,14 +17,14 @@ const props = defineProps({
 
 <template>
   <div class="mx-4 mt-20 items-center font-roboto 2xl:mx-[300px] lg:mx-[80px] md:mt-30">
-    <div data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="800" class="mt-20 flex flex-col items-center justify-center gap-2 md:mt-30">
-      <h2 class="text-center text-[1.5rem]">
+    <div data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="800" class="mt-20 flex flex-col items-center justify-center gap-3 md:mt-30">
+      <h2 class="text-center text-[1.5rem] font-500">
         {{ props.title }}
       </h2>
       <h2 class="text-center leading-loose text-gray md:max-w-800px md:text-left">
         {{ props.subtitle }}
       </h2>
-      <button class="button relative flex items-center gap-1 rounded-sm bg-gray-100 py-[0.2rem] pl-[1.2rem] pr-[1.4rem] transition-400 hover:bg-gray-200">
+      <button class="button relative flex items-center gap-1 rounded-sm bg-gray-100 py-[0.2rem] pl-[1.2rem] pr-[1.4rem] transition-400 hover:bg-gray-200 dark:text-black">
         O projekcie
         <div class="i-ic:baseline-arrow-right-alt arrow right-[1.4rem] transition-400" />
       </button>
