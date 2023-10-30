@@ -1,6 +1,5 @@
 <template>
   <div class="mx-4 font-roboto 2xl:mx-[300px] lg:mx-[80px]">
-    <TheTopBar />
     <div data-aos="fade" data-aos-offset="200" data-aos-duration="800" data-aos-mirror="true" class="mt-20">
       <div class="sm:flex sm:justify-between">
         <picture class="max-w-300px lg:max-w-400px xl:max-w-500px">
