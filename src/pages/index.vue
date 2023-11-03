@@ -21,7 +21,8 @@ const projects = [
     subtitle: 'Kolejny projekt ze strony frontend Mentor, który robiłem w ramach nauki.',
     imgSrc: '/clipboard.jpeg',
     imgUrl: 'https://lukaszwebster.github.io/clipboard-landing-page-master/',
-    to: '/',
+    buttonText: 'O projekcie',
+    to: '/projects/landingPage',
   },
   {
     title: 'Weather app',

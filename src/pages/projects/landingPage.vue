@@ -1,3 +1,7 @@
+<script setup>
+const techItems = ['html', 'css', 'js']
+</script>
+
 <template>
   <div class="mx-4 mt-12 font-roboto 2xl:mx-[300px] lg:mx-[80px]">
     <div class="max-w-[40rem]">
@@ -8,7 +12,7 @@
         Landing page z Frontend Mentor
       </h2>
       <p class="mt-12 text-gray">
-        Jest to jeden z pierwszych moich projektów, który wykonywałem w ramach nauki z serwisem Frontend Mentor.
+        Projekt z Frontend Mentor, w którym uczyłem się podstaw css. Największym wyzwaniem była dla mnie responsywność.
       </p>
     </div>
     <div class="mt-[4rem] w-full flex flex-col justify-between md:flex-row">
@@ -24,10 +28,10 @@
           </ul>
         </div>
         <div class="mt-[2rem]">
-          <a class="underline" href="https://lukaszwebster.github.io/Shortly-URL/">Obejrzyj stronę</a>
+          <a class="underline" href="https://lukaszwebster.github.io/clipboard-landing-page-master/">Obejrzyj stronę</a>
         </div>
       </div>
-      <img class="rounded-[8px] lg:max-w-[40rem] md:max-w-[30rem] xl:max-w-[50rem]" src="/shortly.jpeg" alt="">
+      <img class="rounded-[8px] lg:max-w-[40rem] md:max-w-[30rem] xl:max-w-[50rem]" src="/clipboard.jpeg" alt="">
     </div>
   </div>
 </template>
