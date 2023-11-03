@@ -35,7 +35,7 @@ const props = defineProps({
       <RouterLink :to="props.to">
         <button type="button" class="button relative flex items-center gap-1 rounded-sm bg-gray-100 py-[0.2rem] pl-[1.2rem] pr-[1.4rem] transition-400 hover:bg-gray-200 dark:text-black">
           {{ props.buttonText }}
-          <div class="i-ic:baseline-arrow-right-alt right-[1.4rem] transition-400" />
+          <div class="i-ic:baseline-arrow-right-alt arrow right-[1.4rem] transition-400" />
         </button>
       </RouterLink>
       <picture class="mt-10 md:max-w-800px">
