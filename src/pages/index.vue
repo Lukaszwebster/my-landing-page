@@ -5,7 +5,7 @@ const projects = [
     subtitle: 'Mój projekt strony dla zaprzyjaźnionego gabinetu stomatologicznego. Od projektu, przez zdjęcia aż do kodu wykonany przezemnie. Projekt nauczył mnie wielu rzeczy.',
     imgSrc: '/MediDentImg.png',
     imgUrl: 'https://medidentpulawy.pl',
-    href: '/projects/mediDent',
+    to: '/projects/mediDent',
     buttonText: 'Przeczytaj więcej',
   },
   {
@@ -14,19 +14,21 @@ const projects = [
     imgSrc: '/shortly.jpeg',
     imgUrl: 'https://lukaszwebster.github.io/Shortly-URL/',
     buttonText: 'O projekcie',
-    href: '/projects/urlShortening',
+    to: '/projects/urlShortening',
   },
   {
     title: 'Clipboard landing page. Frontend Mentor',
     subtitle: 'Kolejny projekt ze strony frontend Mentor, który robiłem w ramach nauki.',
     imgSrc: '/clipboard.jpeg',
     imgUrl: 'https://lukaszwebster.github.io/clipboard-landing-page-master/',
+    to: '/',
   },
   {
     title: 'Weather app',
     subtitle: ' Aplikacja pogodowa pokazująca aktualne dane pogodowe miast. W krótce będzie rozbudowywana.',
     imgSrc: '/weatherApp.png',
     imgUrl: '',
+    to: '/',
   },
 ]
 </script>
