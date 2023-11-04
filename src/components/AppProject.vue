@@ -32,11 +32,9 @@ const props = defineProps({
       <h2 class="text-center leading-loose text-gray md:max-w-800px md:text-left">
         {{ props.subtitle }}
       </h2>
-      <RouterLink :to="props.to">
-        <button type="button" class="button relative flex items-center gap-1 rounded-sm bg-gray-100 py-[0.2rem] pl-[1.2rem] pr-[1.4rem] transition-400 hover:bg-gray-200 dark:text-black">
-          {{ props.buttonText }}
-          <div class="i-ic:baseline-arrow-right-alt arrow right-[1.4rem] transition-400" />
-        </button>
+      <RouterLink class="button relative flex items-center gap-1 rounded-sm bg-gray-100 py-[0.2rem] pl-[1.2rem] pr-[1.4rem] transition-400 hover:bg-gray-200 dark:text-black" :to="props.to">
+        {{ props.buttonText }}
+        <div class="i-ic:baseline-arrow-right-alt arrow right-[1.4rem] transition-400" />
       </RouterLink>
       <picture class="mt-10 md:max-w-800px">
         <a :href="imgUrl">  <img class="rounded-8px" :src="imgSrc" alt=""></a>
@@ -47,7 +45,6 @@ const props = defineProps({
 
 <style>
 .button:hover > .arrow {
-  /* right: 0.8rem; */
   transform: translate(0.5rem);
   }
 </style>
