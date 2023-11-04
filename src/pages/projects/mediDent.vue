@@ -1,5 +1,5 @@
 <script setup>
-const techItems = ['vue', 'unoCss']
+const techItems = ['vue', 'UnoCss']
 </script>
 
 <template>
@@ -16,7 +16,7 @@ const techItems = ['vue', 'unoCss']
           MediDent to zaprzyjaźniony gabinet stomatologiczny. Gdy tylko dowiedziałem się, że firmie potrzebna jest strona internetowa postanowiłem nie odpłatnie ją wykonać. Praca nad projektem była ciekawym doświadczeniem.
         </p>
       </div>
-      <div class="mt-[4rem] w-full flex flex-col justify-between md:flex-row">
+      <div class="mt-[4rem] w-full flex flex-col justify-between gap-4 md:flex-row">
         <div>
           <h2 class="text-gray">
             Technologie w projekcie
@@ -34,11 +34,11 @@ const techItems = ['vue', 'unoCss']
         </div>
         <img class="rounded-[8px] lg:max-w-[40rem] md:max-w-[30rem] xl:max-w-[50rem]" src="/MediDentImg.png" alt="">
       </div>
-      <div class="mt-[2rem] max-w-[40rem]">
+      <div class="mt-[2rem] max-w-[40rem] flex flex-col gap-4">
         <h2 class="text-[1.5rem] font-500">
           Szczegóły
         </h2>
-        <p class="mt-12 text-gray">
+        <p class="text-gray">
           Przy pracy ze strona MediDent napotkałem wiele wyzwań ponieważ projekt musiał być stworzony od początku do końca. oznaczało to, że do mnie należało wybranie technologii, wymyślenie wyglądu strony, wykonanie zdjęć w firmie oraz teksty. Uświadomiło mi to jak trudne jest wykonanie wszystkiego samodzielnie i jak bardzo w innych projektach liczą się role poszczególnych członków teamu.
         </p>
       </div>
