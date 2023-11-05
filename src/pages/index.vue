@@ -30,6 +30,7 @@ const projects = [
     imgSrc: '/weatherApp.png',
     imgUrl: '',
     to: '/',
+    buttonText: 'O projekcie',
   },
 ]
 </script>

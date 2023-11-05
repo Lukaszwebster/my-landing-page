@@ -15,7 +15,7 @@ const techItems = ['html', 'css', 'js']
         Jest to jeden z pierwszych moich projektów, który wykonywałem w ramach nauki z serwisem Frontend Mentor.
       </p>
     </div>
-    <div class="mt-[4rem] w-full flex flex-col justify-between md:flex-row">
+    <div class="mt-[4rem] w-full flex flex-col justify-between gap-4 md:flex-row">
       <div>
         <h2 class="text-gray">
           Technologie w projekcie
