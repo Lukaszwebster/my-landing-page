@@ -18,6 +18,9 @@ const props = defineProps({
   skills: {
     type: Array,
   },
+  details: {
+    type: String,
+  },
 })
 </script>
 
@@ -51,6 +54,14 @@ const props = defineProps({
         </div>
       </div>
       <img class="rounded-[8px] lg:max-w-[40rem] md:max-w-[30rem] xl:max-w-[50rem]" :src="props.imgUrl" alt="">
+    </div>
+    <div class="mt-[2rem] max-w-[40rem] flex flex-col gap-4">
+      <h2 class="text-[1.5rem] font-500">
+        Szczegóły
+      </h2>
+      <p class="text-gray">
+        {{ props.details }}
+      </p>
     </div>
   </div>
 </template>
