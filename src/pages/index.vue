@@ -1,6 +1,14 @@
 <script setup lang="ts">
 const projects = [
   {
+    title: 'Nowy projekt wkrótce',
+    subtitle: 'W tym miejscu będzie mój pierwszy komercyjny projekt, w którym pracuje jako junior.',
+    imgSrc: '/',
+    imgUrl: '/',
+    to: '/',
+    buttonText: '',
+  },
+  {
     title: 'MediDent',
     subtitle: 'Mój projekt strony dla zaprzyjaźnionego gabinetu stomatologicznego. Od projektu, przez zdjęcia aż do kodu wykonany przezemnie. Projekt nauczył mnie wielu rzeczy.',
     imgSrc: '/MediDentImg.png',
