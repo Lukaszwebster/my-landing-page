@@ -15,7 +15,9 @@ const props = defineProps({
   href: {
     type: String,
   },
-
+  skills: {
+    type: Array,
+  },
 })
 </script>
 
@@ -38,17 +40,17 @@ const props = defineProps({
           Technologie w projekcie
         </h2>
         <div class="mt-[2rem] flex flex-col gap-1">
-          <ul v-for="(item, index) in techItems" :key="index">
+          <ul v-for="(item, index) in skills" :key="index">
             <li class="w-min rounded-4px bg-#fafafa px-2 py-1 hover:bg-gray dark:text-black">
               {{ item }}
             </li>
           </ul>
         </div>
         <div class="mt-[2rem]">
-          <a class="underline" href="https://lukaszwebster.github.io/Shortly-URL/">Obejrzyj stronę</a>
+          <a class="underline" :href="props.href">Obejrzyj stronę</a>
         </div>
       </div>
-      <img class="rounded-[8px] lg:max-w-[40rem] md:max-w-[30rem] xl:max-w-[50rem]" src="/shortly.jpeg" alt="">
+      <img class="rounded-[8px] lg:max-w-[40rem] md:max-w-[30rem] xl:max-w-[50rem]" :src="props.imgUrl" alt="">
     </div>
   </div>
 </template>
