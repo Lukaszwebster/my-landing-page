@@ -39,6 +39,7 @@ function scrollToTop() {
     </div>
     <button data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="800" class="fixed bottom-20px right-20px" @click="scrollToTop">
       <div class="i-solar:round-alt-arrow-up-bold text-2rem text-gray md:text-3rem dark:text-white" />
+      <span class="sr-only">To top</span>
     </button>
   </div>
 </template>

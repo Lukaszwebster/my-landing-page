@@ -3,7 +3,7 @@
     <div data-aos="fade" data-aos-offset="200" data-aos-duration="800" data-aos-mirror="true" class="mt-20">
       <div class="sm:flex sm:justify-between">
         <picture class="max-w-300px lg:max-w-400px xl:max-w-500px">
-          <img class="rounded-4px" src="/zdjecie.jpg" alt="">
+          <img class="rounded-4px" src="/zdjecie.jpg" alt="Zdjęcie programisty">
         </picture>
         <div class="lg:max-w-550px md:max-w-400px sm:max-w-500px xl:max-w-700px">
           <h1 class="mt-10 text-[1.8rem] font-light leading-tight sm:mt-0 sm:text-right lg:text-[2.5rem] lg:text-[3rem] md:text-[2.1rem]">

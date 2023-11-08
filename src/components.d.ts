@@ -10,7 +10,6 @@ declare module 'vue' {
     AppGitHubCalendar: typeof import('./components/AppGitHubCalendar.vue')['default']
     AppProject: typeof import('./components/AppProject.vue')['default']
     AppProjectOverview: typeof import('./components/AppProjectOverview.vue')['default']
-    AppProjectOvierview: typeof import('./components/AppProjectOvierview.vue')['default']
     AppSkillsItems: typeof import('./components/AppSkillsItems.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
