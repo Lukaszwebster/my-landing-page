@@ -10,7 +10,7 @@
             <span class="">Siema.</span> <br> <span class="font-bold"> Mam na imię Łukasz.</span> <br> <span class="">Jestem junior frontend developerem.</span>
           </h1>
 
-          <h2 class="mt-10 leading-loose text-gray md:ml-[30px] sm:text-right">
+          <h2 class="mt-10 leading-loose text-gray-500 md:ml-[30px] sm:text-right">
             Przez 8 lat pracowałem jako instruktor i wykładowca nauki jazdy. <br> Po tym czasie podjąłem decyzje o przebranżowieniu się na stanowsko frontend developera. Naukę rozpocząłem 3 lata temu. Od początku tego procesu korzystałem z płatnych i darmowych kursów online. Z poszerzania wiedzy oraz pracy nad projektami czerpię duzo przyjemnosci i satysfakcji.
             <br>
             Prywatnie - fan motoryzacji, miłośnik narciarstwa/kolarstwa oraz gier komputerowych.

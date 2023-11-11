@@ -54,7 +54,7 @@ const skills = [
       Technologie z których korzystam
     </h2>
     <div class="justify-between md:flex">
-      <h2 class="mt-4 leading-loose text-gray lg:max-w-500px md:max-w-300px">
+      <h2 class="mt-4 leading-loose text-gray-500 lg:max-w-500px md:max-w-300px">
         Od kiedy uczę się frontendu, staram się poznawać jak najwięcej nowych technologii. Zdaję sobie sprawę z tego, że tylko ciągłą nauką można nadążyć za rozwijającą się branżą IT.
         Jednocześnie wiem, że pracując już na stanowisku frontend developera będę musiał cały czas poszerzać swoją wiedzę i rozwijać się w kolejnych gałęziach technologicznych. Dzięki temu jestem otwarty na kolejne wyzwania i chcę aby mój "frontendowy warsztat pracy" był jak najbardziej obszerny.
       </h2>

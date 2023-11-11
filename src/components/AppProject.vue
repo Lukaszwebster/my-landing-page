@@ -29,7 +29,7 @@ const props = defineProps({
       <h2 class="text-center text-[1.5rem] font-500">
         {{ props.title }}
       </h2>
-      <h2 class="text-center leading-loose text-gray md:max-w-800px md:text-left">
+      <h2 class="text-center leading-loose text-gray-500 md:max-w-800px md:text-left">
         {{ props.subtitle }}
       </h2>
       <RouterLink class="button relative flex items-center gap-1 rounded-sm bg-gray-100 py-[0.2rem] pl-[1.2rem] pr-[1.4rem] transition-400 hover:bg-gray-200 dark:text-black" :to="props.to">

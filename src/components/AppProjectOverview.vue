@@ -30,21 +30,21 @@ const props = defineProps({
       <h1 class="text-[1.8rem] font-500">
         {{ props.title }}
       </h1>
-      <h2 class="text-gray">
+      <h2 class="text-gray-500">
         {{ props.subtitle }}
       </h2>
-      <p class="mt-12 text-gray">
+      <p class="mt-12 text-gray-500">
         {{ props.description }}
       </p>
     </div>
     <div class="mt-[4rem] w-full flex flex-col justify-between gap-4 md:flex-row">
       <div>
-        <h2 class="text-gray">
+        <h2 class="text-gray-500">
           Technologie w projekcie
         </h2>
         <div class="mt-[2rem] flex flex-col gap-1">
           <ul v-for="(item, index) in skills" :key="index">
-            <li class="w-min rounded-4px bg-#fafafa px-2 py-1 hover:bg-gray dark:text-black">
+            <li class="inline-block cursor-default rounded-4px bg-#fafafa px-2 py-1 hover:bg-gray dark:text-black">
               {{ item }}
             </li>
           </ul>
@@ -59,7 +59,7 @@ const props = defineProps({
       <h2 class="text-[1.5rem] font-500">
         Szczegóły
       </h2>
-      <p class="text-gray">
+      <p class="text-gray-500">
         {{ props.details }}
       </p>
     </div>
