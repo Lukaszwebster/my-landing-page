@@ -6,7 +6,7 @@ const projectOverviewItems = [
     description: 'Projekt z Frontend Mentor, w którym uczyłem się podstaw css. Największym wyzwaniem była dla mnie responsywność.',
     imgUrl: '/clipboard.jpeg',
     href: 'https://lukaszwebster.github.io/clipboard-landing-page-master/',
-    skills: ['html', 'css', 'js'],
+    skills: ['html', 'tailwindCSS', 'js'],
   },
 ]
 </script>
