@@ -2,8 +2,7 @@
 const projects = [
   {
     title: 'Nowy projekt wkrótce',
-    subtitle: 'W tym miejscu będzie mój pierwszy komercyjny projekt, w którym pracuje jako junior.',
-    imgSrc: '/',
+    subtitle: 'W tym miejscu będzie mój pierwszy komercyjny projekt zrobiony w Nuxt, w którym pracuje jako junior.',
     imgUrl: '/',
     to: '/',
     buttonText: '',
@@ -39,6 +38,7 @@ const projects = [
     imgUrl: '',
     to: '/',
     buttonText: 'O projekcie',
+    class: 'max-w-[20rem]',
   },
 ]
 </script>

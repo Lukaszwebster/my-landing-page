@@ -20,6 +20,9 @@ const props = defineProps({
   buttonText: {
     type: String,
   },
+  class: {
+    type: String,
+  },
 })
 </script>
 
@@ -37,7 +40,7 @@ const props = defineProps({
         <div class="i-ic:baseline-arrow-right-alt arrow right-[1.4rem] transition-400" />
       </RouterLink>
       <picture class="mt-10 md:max-w-800px">
-        <a :href="imgUrl">  <img class="rounded-8px" :src="imgSrc" alt=""></a>
+        <a :href="imgUrl">  <img :class="props.class" class="rounded-8px" :src="imgSrc" alt=""></a>
       </picture>
     </div>
   </div>
