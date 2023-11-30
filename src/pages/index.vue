@@ -36,7 +36,7 @@ const projects = [
     subtitle: ' Aplikacja pogodowa pokazująca aktualne dane pogodowe miast. W krótce będzie rozbudowywana.',
     imgSrc: '/weatherApp.png',
     imgUrl: '',
-    to: '/',
+    to: '/projects/weatherApp',
     buttonText: 'O projekcie',
     class: 'max-w-[20rem]',
   },
