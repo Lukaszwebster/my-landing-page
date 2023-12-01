@@ -21,6 +21,9 @@ const props = defineProps({
   details: {
     type: String,
   },
+  imgStyle: {
+    type: String,
+  },
 })
 </script>
 
@@ -53,7 +56,7 @@ const props = defineProps({
           <a class="underline" :href="props.href">Obejrzyj stronę</a>
         </div>
       </div>
-      <img class="rounded-[8px] lg:max-w-[40rem] md:max-w-[30rem] xl:max-w-[50rem]" :src="props.imgUrl" alt="">
+      <img :class="imgStyle" class="rounded-[8px] lg:max-w-[40rem] md:max-w-[30rem] xl:max-w-[50rem]" :src="props.imgUrl" alt="">
     </div>
     <div class="mt-[2rem] max-w-[40rem] flex flex-col gap-4">
       <h2 class="text-[1.5rem] font-500">
