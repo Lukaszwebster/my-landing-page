@@ -7,6 +7,7 @@ const projectOverviewItems = [
     imgUrl: '/weatherApp.png',
     href: '',
     skills: ['html', 'tailwindCSS', 'vue'],
+    details: 'W projekcie nauczyłem się pobierania danych z API.',
   },
 ]
 </script>
