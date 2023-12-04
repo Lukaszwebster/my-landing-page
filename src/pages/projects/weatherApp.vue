@@ -7,7 +7,7 @@ const projectOverviewItems = [
     imgUrl: '/weatherApp.png',
     href: '',
     skills: ['html', 'tailwindCSS', 'vue'],
-    details: 'W projekcie nauczyłem się pobierania danych z API.',
+    details: 'W projekcie uczyłem się pobierania danych z API. Pierwszą rzeczą jaką musiałem zrobić to znależć odpowiednie darmowe dane pogodowe. Aplikacja pokazuje aktualną pogodę w wybranym przez użytkownika mieście.',
     imgStyle: 'max-h-[40rem] md:mr-[10rem]',
   },
 ]
