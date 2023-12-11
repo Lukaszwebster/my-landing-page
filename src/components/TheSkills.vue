@@ -44,6 +44,14 @@ const skills = [
     id: 11,
     name: 'Nuxt',
   },
+  {
+    id: 12,
+    name: 'SASS',
+  },
+  {
+    id: 13,
+    name: 'SCSS',
+  },
 
 ]
 </script>
