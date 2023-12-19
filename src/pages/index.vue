@@ -9,7 +9,7 @@ const projects = [
   },
   {
     title: 'MediDent',
-    subtitle: 'Mój projekt strony dla zaprzyjaźnionego gabinetu stomatologicznego. Od projektu, przez zdjęcia aż do kodu wykonany przezemnie. Projekt nauczył mnie wielu rzeczy.',
+    subtitle: 'Mój projekt strony dla zaprzyjaźnionego gabinetu stomatologicznego. Od projektu, przez zdjęcia aż do kodu wykonany przeze mnie. Projekt nauczył mnie wielu rzeczy.',
     imgSrc: '/MediDentImg.png',
     imgUrl: 'https://medidentpulawy.pl',
     to: '/projects/mediDent',

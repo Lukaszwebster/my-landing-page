@@ -52,6 +52,14 @@ const skills = [
     id: 13,
     name: 'SCSS',
   },
+  {
+    id: 14,
+    name: 'Adobe Photoshop',
+  },
+  {
+    id: 15,
+    name: 'Adobe Animate',
+  },
 
 ]
 </script>
