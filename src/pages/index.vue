@@ -3,7 +3,8 @@ const projects = [
   {
     title: 'Wycena.AI',
     subtitle: 'Wycena nieruchomowści. Mój pierwszy komercyjny projekt, w którym, brałem udział jako junior.',
-    imgUrl: '/',
+    imgSrc: '/wycena-ai.png',
+    imgUrl: 'https://wycena.ai',
     to: '/projects/wycenaai',
     buttonText: 'Moje doświadczenie',
   },

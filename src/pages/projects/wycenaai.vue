@@ -1,11 +1,11 @@
 <script setup>
 const projectOverviewItems = [
   {
-    title: '',
-    subtitle: '',
-    description: '',
-    imgUrl: '',
-    href: '',
+    title: 'Wycena.AI',
+    subtitle: 'Wycena nieruchomości',
+    description: 'Był to mój pierwszy projekt komercyjny',
+    imgUrl: '/wycena-ai.png',
+    href: 'https://wycena.ai',
     skills: [],
   },
 ]
