@@ -1,11 +1,11 @@
 <script setup lang="ts">
 const projects = [
   {
-    title: 'Nowy projekt wkrótce',
-    subtitle: 'W tym miejscu będzie mój pierwszy komercyjny projekt zrobiony w Nuxt, w którym pracuje jako junior.',
+    title: 'Wycena.AI',
+    subtitle: 'Wycena nieruchomowści. Mój pierwszy komercyjny projekt, w którym, brałem udział jako junior.',
     imgUrl: '/',
-    to: '/',
-    buttonText: '',
+    to: '/projects/wycenaai',
+    buttonText: 'Moje doświadczenie',
   },
   {
     title: 'MediDent',

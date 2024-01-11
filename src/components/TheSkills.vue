@@ -54,25 +54,20 @@ const skills = [
   },
   {
     id: 14,
-    name: 'Adobe Photoshop',
-  },
-  {
-    id: 15,
-    name: 'Adobe Animate',
-  },
-  {
-    id: 16,
     name: 'Adobe XD',
   },
   {
-    id: 17,
-    name: 'Adobe Illustrator',
-  },
-  {
-    id: 18,
+    id: 15,
     name: 'Figma',
   },
-
+  {
+    id: 16,
+    name: 'Adobe Photoshop',
+  },
+  {
+    id: 17,
+    name: 'Adobe Lightroom',
+  },
 ]
 </script>
 
