@@ -19,9 +19,9 @@ const projects = [
   {
     title: 'Social Seal',
     subtitle: 'Projekt rekrutacyjny',
-    imgSrc: '',
-    imgUrl: '',
-    buttonText: '',
+    imgSrc: '/socialSeal.png',
+    imgUrl: 'https://splendorous-phoenix-798e6b.netlify.app/',
+    buttonText: 'Przeczytaj więcej',
     to: '',
   },
   {
