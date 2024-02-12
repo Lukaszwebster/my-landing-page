@@ -17,6 +17,14 @@ const projects = [
     buttonText: 'Przeczytaj więcej',
   },
   {
+    title: 'Social Seal',
+    subtitle: 'Projekt rekrutacyjny',
+    imgSrc: '',
+    imgUrl: '',
+    buttonText: '',
+    to: '',
+  },
+  {
     title: 'URL Shortening. Frontend Mentor.',
     subtitle: 'Jeden z moich pierwszych projektów. Pomysł z Frontend Mentora. Jest to prosty landing page, którego zadaniem jest skracać linki. Wykorzystałem w nim tailwind CSS.',
     imgSrc: '/shortly.jpeg',
