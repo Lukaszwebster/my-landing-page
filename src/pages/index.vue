@@ -22,7 +22,7 @@ const projects = [
     imgSrc: '/socialSeal.png',
     imgUrl: 'https://splendorous-phoenix-798e6b.netlify.app/',
     buttonText: 'Przeczytaj więcej',
-    to: '',
+    to: '/projects/socialSeal',
   },
   {
     title: 'URL Shortening. Frontend Mentor.',

@@ -2,11 +2,11 @@
 const projectOverviewItems = [
   {
     title: 'Social Seal landing page',
-    subtitle: '',
+    subtitle: 'Landing page, który wykonałem w ramach rekrutacji.',
     description: '',
-    imgUrl: '',
-    href: '',
-    skills: [],
+    imgUrl: '/socialSeal.png',
+    href: 'https://splendorous-phoenix-798e6b.netlify.app/',
+    skills: ['vue', 'unocss'],
   },
 ]
 </script>
