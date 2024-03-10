@@ -2,7 +2,7 @@
 const projects = [
   {
     title: 'Wycena.AI',
-    subtitle: 'Wycena nieruchomowści. Mój pierwszy komercyjny projekt, w którym, brałem udział jako junior.',
+    subtitle: 'Wycena nieruchomowści. Pierwszy komercyjny projekt, w którym, brałem udział jako junior.',
     imgSrc: '/wycena-ai.png',
     imgUrl: 'https://wycena.ai',
     to: '/projects/wycenaai',
@@ -60,7 +60,7 @@ const projects = [
       <h2 class="text-center text-[1.5rem] md:text-left">
         Moje projekty
       </h2>
-      <h2 class="mt-4 text-center leading-loose text-gray-500 lg:max-w-500px md:max-w-400px md:text-left">
+      <h2 class="mt-4 text-center leading-loose text-gray-500 lg:max-w-[550px] md:max-w-400px md:text-left dark:text-gray-400">
         Oto kilka moich projektów, które wiele mnie nauczyły oraz ukierunkowały na dalszy rozwój. Skupiam się w nich mocno na responsywności oraz przejrzystości kodu.
       </h2>
     </div>
