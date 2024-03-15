@@ -56,7 +56,7 @@ const projects = [
   <div>
     <TheHeader />
     <TheSkills data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="800" />
-    <div class="mx-4 mt-20 items-center font-roboto 2xl:mx-[300px] lg:mx-[80px] md:mt-30" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="800">
+    <div class="mx-auto mt-20 max-w-[90rem] items-center px-4 font-roboto md:mt-30 lg:px-[80px]" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="800">
       <h2 class="text-center text-[1.5rem] md:text-left">
         Moje projekty
       </h2>

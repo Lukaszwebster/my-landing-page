@@ -7,7 +7,7 @@ const projectOverviewItems = [
     imgUrl: '/MediDentImg.png',
     href: 'https://medidentpulawy.pl/',
     skills: ['vue', 'vite', 'UnoCss', 'vue router'],
-    details: 'Przy pracy ze strona MediDent napotkałem wiele wyzwań ponieważ projekt musiał być stworzony od początku do końca. oznaczało to, że do mnie należało wybranie technologii, wymyślenie wyglądu strony, wykonanie zdjęć w firmie oraz teksty. Uświadomiło mi to jak trudne jest wykonanie wszystkiego samodzielnie i jak bardzo w innych projektach liczą się role poszczególnych członków teamu.',
+    details: 'Przy pracy ze strona MediDent napotkałem wiele wyzwań ponieważ projekt musiał być stworzony od początku do końca. Oznaczało to, że do mnie należało wybranie technologii, wymyślenie wyglądu strony, wykonanie zdjęć w firmie oraz teksty. Uświadomiło mi to jak trudne jest wykonanie wszystkiego samodzielnie i jak bardzo w innych projektach liczą się role poszczególnych członków teamu. Gdy współpracuje się z innymi programistami oraz osobami odpowiedzialnymi za inne etapy tworzenia nowego produktu praca jest łatwiejsza i oczywiście przebiega szybciej i sprawniej.',
   },
 ]
 </script>

@@ -72,7 +72,7 @@ const skills = [
 </script>
 
 <template>
-  <div class="mx-4 mt-30 font-roboto 2xl:mx-[300px] lg:mx-[80px]">
+  <div class="mx-auto mt-30 max-w-[90rem] px-4 font-roboto lg:px-[80px]">
     <h2 class="text-[1.5rem]">
       Technologie z których korzystam
     </h2>

@@ -3,7 +3,7 @@ const { t, locale } = useI18n()
 </script>
 
 <template>
-  <div class="mx-4 mt-12 flex items-center justify-between font-roboto 2xl:mx-[300px] lg:mx-[80px]">
+  <div class="mx-auto mt-12 max-w-[90rem] flex items-center justify-between px-4 font-roboto lg:px-[80px]">
     <a href="/" class="text-5">
       Łukasz<span class="font-1000">Samcik</span>
     </a>
