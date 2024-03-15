@@ -61,7 +61,7 @@ const projects = [
         Moje projekty
       </h2>
       <h2 class="mt-4 text-center leading-loose text-gray-500 lg:max-w-[550px] md:max-w-400px md:text-left dark:text-gray-400">
-        Oto kilka moich projektów, które wiele mnie nauczyły oraz ukierunkowały na dalszy rozwój. Skupiam się w nich mocno na responsywności oraz przejrzystości kodu.
+        Oto kilka moich projektów, które wiele mnie nauczyły oraz ukierunkowały na dalszy rozwój. Skupiam się w nich mocno na responsywności oraz przejrzystości kodu. Znajdują się tutaj zarówno strony komercyjne jak i te, które wykonałem w ramach nauki.
       </h2>
     </div>
     <AppProject v-for="(item, index) in projects" :key="index" v-bind="item" />
