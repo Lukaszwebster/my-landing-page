@@ -78,8 +78,8 @@ const skills = [
     </h2>
     <div class="justify-between md:flex">
       <h2 class="mt-4 leading-loose text-gray-500 lg:max-w-[550px] md:max-w-300px dark:text-gray-400">
-        Od kiedy uczę się frontendu, staram się poznawać jak najwięcej nowych technologii. Zdaję sobie sprawę z tego, że tylko ciągłą nauką można nadążyć za rozwijającą się branżą IT.
-        Jednocześnie wiem, że pracując już na stanowisku frontend developera będę musiał cały czas poszerzać swoją wiedzę i rozwijać się w kolejnych gałęziach technologicznych. Dzięki temu jestem otwarty na kolejne wyzwania i chcę aby mój "frontendowy warsztat pracy" był jak najbardziej obszerny.
+        O kiedy zajmuję się frontendem,  staram się poznawać jak najwięcej nowych technologii. Uważam że tylko ciągłą nauką można nadążyć za dynamicznie rozwijającą się branżą IT.
+        Dzięki temu jestem otwarty na kolejne wyzwania i chcę aby mój "frontendowy warsztat pracy" był jak najbardziej obszerny. Widzę również dużo sensu w nabywaniu umiejętności dodatkowych takich jak obsługa popularnych programów od Adobe. Pomaga to w rozwijaniu własnych projektów jak również zleceń mniejszych klientów.
       </h2>
       <div class="mt-10 md:mt-0 lg:max-w-400px md:max-w-300px md:text-right">
         <AppSkillsItems v-for="item in skills" :key="item.id" v-bind="item" />

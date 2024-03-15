@@ -10,7 +10,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="m-8px inline-block cursor-default rounded-4px bg-#fafafa px-2 py-1 hover:bg-gray dark:text-black">
+  <div class="m-8px inline-block cursor-default rounded-4px bg-#fafafa px-2 py-1 hover:bg-gray-200 dark:text-black">
     {{ props.name }}
   </div>
 </template>
