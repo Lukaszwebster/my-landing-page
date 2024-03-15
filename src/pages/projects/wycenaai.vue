@@ -7,7 +7,7 @@ const projectOverviewItems = [
     imgUrl: '/wycena-ai.png',
     href: 'https://wycena.ai',
     skills: ['vue', 'vite', 'nuxt', 'tailwind'],
-    details: 'Wycena.AI to projekt, w którym brałem udział w trzy osobowym zespole frontendowym.',
+    details: 'Wycena.AI to projekt, w którym brałem udział w trzy osobowym zespole frontendowym. Jako, że była to moja pierwsza komercyjna praca napotkałem na sporo wyzwań, które wiele mnie nauczyły.',
   },
 ]
 </script>
