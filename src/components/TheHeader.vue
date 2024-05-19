@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto max-w-[90rem] px-4 font-roboto lg:px-[80px]">
+  <div class="mx-auto max-w-[90rem] overflow-hidden px-4 font-roboto lg:px-[80px]">
     <img class="absolute top-0 opacity-40% -z-10 dark:hidden" src="/background.svg" alt="">
     <img class="absolute top-0 hidden -z-10 dark:block" src="/background-dark.svg" alt="">
     <div data-aos="fade" data-aos-offset="200" data-aos-duration="800" data-aos-mirror="true" class="mt-20">
@@ -11,7 +11,6 @@
           <h1 class="mt-10 text-[1.8rem] font-light leading-tight sm:mt-0 sm:text-right lg:text-[2.5rem] lg:text-[3rem] md:text-[2.1rem]">
             <span class="">Siema.</span> <br> <span class="font-bold"> Mam na imię Łukasz.</span> <br> <span class="">Jestem frontend developerem.</span>
           </h1>
-
           <h2 class="mt-10 leading-loose text-gray-500 md:ml-[30px] sm:text-right dark:text-gray-400">
             Programista - samouk. Tworzę interaktywne i estetyczne strony oraz aplikacje, łącząc funkcjonalność z nowoczesnym designem. Z poszerzania wiedzy oraz pracy nad projektami czerpię dużo przyjemności i satysfakcji.
 
