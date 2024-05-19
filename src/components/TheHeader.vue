@@ -1,7 +1,7 @@
 <template>
-  <div class="mx-auto max-w-[90rem] overflow-hidden px-4 font-roboto lg:px-[80px]">
-    <img class="absolute top-0 opacity-40% -z-10 dark:hidden" src="/background.svg" alt="">
-    <img class="absolute top-0 hidden -z-10 dark:block" src="/background-dark.svg" alt="">
+  <div class="mx-auto max-w-[90rem] px-4 font-roboto lg:px-[80px]">
+    <!-- <img class="absolute top-0 opacity-40% -z-10 dark:hidden" src="/background.svg" alt="">
+    <img class="absolute top-0 hidden -z-10 dark:block" src="/background-dark.svg" alt=""> -->
     <div data-aos="fade" data-aos-offset="200" data-aos-duration="800" data-aos-mirror="true" class="mt-20">
       <div class="sm:flex sm:justify-between">
         <picture class="max-w-300px lg:max-w-400px xl:max-w-500px">
