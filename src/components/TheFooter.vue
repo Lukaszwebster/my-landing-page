@@ -1,15 +1,4 @@
 <script setup>
-import { availableLocales, loadLanguageAsync } from '~/modules/i18n'
-
-const { t, locale } = useI18n()
-
-async function toggleLocales() {
-  const locales = availableLocales
-  const newLocale = locales[(locales.indexOf(locale.value) + 1) % locales.length]
-  await loadLanguageAsync(newLocale)
-  locale.value = newLocale
-}
-
 function scrollToTop() {
   window.scrollTo({
     top: 0,
@@ -28,7 +17,6 @@ function scrollToTop() {
         <a href="https://github.com/Lukaszwebster">
           <div class="i-mdi:github md:h-10 md:w-10 dark:bg-white hover:text-black dark:hover:text-white" />
         </a>
-
         <a href="https://www.linkedin.com/in/%C5%82ukasz-samcik-272222271/">
           <div class="i-mdi:linkedin md:h-10 md:w-10 dark:bg-my-blue dark:text-gray hover:text-black dark:hover:text-white" />
         </a>
@@ -38,8 +26,9 @@ function scrollToTop() {
       </nav>
     </div>
     <button data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="800" class="fixed bottom-20px right-20px" @click="scrollToTop">
-      <div class="i-solar:round-alt-arrow-up-bold text-2rem text-gray md:text-3rem dark:text-white" />
-      <span class="sr-only">To top</span>
+      <div class="i-solar:round-alt-arrow-up-bold text-2rem text-gray md:text-3rem dark:text-white">
+        <span class="sr-only">To top</span>
+      </div>
     </button>
   </div>
 </template>
