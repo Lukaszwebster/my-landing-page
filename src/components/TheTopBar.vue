@@ -1,5 +1,5 @@
 <script setup>
-const { t, locale } = useI18n()
+const { t } = useI18n()
 </script>
 
 <template>
