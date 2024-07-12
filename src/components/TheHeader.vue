@@ -12,9 +12,9 @@
             <span class="">Siema.</span> <br> <span class="font-bold"> Mam na imię Łukasz.</span> <br> <span class="">Jestem frontend developerem.</span>
           </h1>
           <h2 class="mt-10 leading-loose text-gray-500 md:ml-[30px] sm:text-right dark:text-gray-400">
-            Programista - samouk. Tworzę interaktywne i estetyczne strony oraz aplikacje, łącząc funkcjonalność z nowoczesnym designem. Z poszerzania wiedzy oraz pracy nad projektami czerpię dużo przyjemności i satysfakcji.
-
-            Wcześniej pracowałem jako instruktor i wykładowca nauki jazdy. Obecnie kontynuuję tą pracę dodatkowo/hobbystycznie.
+            Programista - samouk. Tworzę interaktywne i estetyczne strony oraz aplikacje, łącząc funkcjonalność z nowoczesnym designem. Z poszerzania wiedzy oraz pracy nad projektami czerpię dużo przyjemności i satysfakcji.<br>
+            Pełnoetatowo jestem <span class="font-bold text-gray-800">specjalistą od wdrożeń</span> w firmie zajmującej się automatyzacją dla przedsiebiorstw w tym chatbotami i voicebotami.<br>
+            Moja wcześniejsza praca poza branżą IT to instruktor i wykładowca nauki jazdy. Obecnie kontynuuję tą pracę dodatkowo/hobbystycznie.
             <br>
             Prywatnie - fan motoryzacji oraz doskonalenia techniki jazdy, pasjonat foto/video, miłośnik narciarstwa/kolarstwa oraz gier komputerowych.
           </h2>
